@@ -69,7 +69,7 @@ describe('HTTP server', () => {
       expect(responseJson.data.addedUser).toBeDefined();
     });
 
-    it('should response 400 when request payload not contain needed property', async () => {
+    it('should response 201 when request payload not contain needed property', async () => {
       // Arrange
       const requestPayload = {
         fullname: 'Dicoding Indonesia',
