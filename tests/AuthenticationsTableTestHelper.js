@@ -1,4 +1,4 @@
-/* istanbul ignore file */
+/* file */
 const pool = require('../src/Infrastructures/database/postgres/pool');
 
 const AuthenticationsTableTestHelper = {
